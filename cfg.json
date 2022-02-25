@@ -1,0 +1,16 @@
+{
+    "debug":true,
+    "logfile": "./app.log",
+    "http": {
+	"enabled": true,
+        "listen": "0.0.0.0:8081"
+    }, 
+    "redis": {
+        "server": "xx.x.x.x:6379",
+        "maxidle": 10,
+        "maxactive": 20,
+        "idletimeout": 60,
+        "maxconnlifetime": 60
+    },
+    "conncurrency": 300
+}
